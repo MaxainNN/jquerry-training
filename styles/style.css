@@ -1,0 +1,136 @@
+body {
+    margin: 20px;
+    padding: 25px;
+    /* color: aqua; */
+}
+
+button {
+    border-radius: 60px;
+    width: 100px;
+    height: 50px;
+    margin-left: 70px;
+
+    /*background-color: #42a5f5; /* Set the initial background color of the button */
+    /*color: #fff; /* Set the initial text color of the button */
+    /*padding: 10px 20px; /* Add padding to the button */
+    /*border: none; /* Remove any border */
+    /*cursor: pointer; /* Change cursor to pointer on hover */
+
+    /* Transition effect for smooth color change */
+    /* transition: background-color 0.3s, color 0.3s; */
+}
+
+button:hover {
+    /*background-color: #2196f3; /* Change background color on hover */
+    /*opacity: 0.8; /* Decrease opacity on hover */
+}
+
+h1.selected {
+    /* border-color: blueviolet; */
+}
+
+/* Add property using jquerry*/
+
+/* .green {
+    color: #43A047;
+}
+
+.selected {
+    border: 3px solid #D81B60;
+    padding: 5px;
+    margin: 2px 0px;
+}
+
+h1.green {
+    border: 3px solid #D81B60;
+} */
+
+.test-box {
+    width: 250px;
+    height: 100px;
+    /* align-items: center; */
+    background-color: bisque;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 10px;
+}
+
+form {
+    width: 250px;
+    height: 100px;
+    /* align-items: center; */
+    text-align: center;
+    background-color: aqua;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+
+input {
+    border-radius: 60px;
+    width: 200px;
+    height: 24px;
+    font-size: 18px;
+    line-height: 24px;
+    border: 2px solid #B0BEC5;
+    /* display: block; */
+}
+
+.pinkColor {
+    color: pink;
+}
+
+#top-header {
+    /* color: brown; */
+    background-color: aquamarine;
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+.orangeBg {
+    background-color: darkorange;
+}
+
+input[type="text"]:hover, input[type="text"]:focus {
+    outline: none;
+}
+
+.focus {
+    border: 2px solid #1565C0 !important;
+    box-shadow: 0px 1px #64B5F6;
+}
+
+.formForSum {
+    height:250px;
+    background-color: rgb(204, 34, 85);
+    /* display: flex;
+    justify-content: flex-start; */
+}
+
+.sumResult {
+    margin-bottom: 20px;
+}
+
+input[type='submit'] {
+    padding: 3px;
+    margin-top: 15px;
+}
+
+p {
+    /* order: -1; */
+}
+
+.imgHolder {
+    /* border-radius: 10px; */
+}
+
+.colorItem {
+    /* display: flex; */
+    width: 50px;
+    padding-right: 15px;
+}
+
+.colorSelector {
+    /* display: flex; */
+    max-width: 300px;
+}
