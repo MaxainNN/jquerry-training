@@ -122,6 +122,7 @@ p {
 
 .imgHolder {
     /* border-radius: 10px; */
+    margin-bottom: 10px;
 }
 
 .colorItem {
@@ -131,6 +132,55 @@ p {
 }
 
 .colorSelector {
-    /* display: flex; */
+    display: flex;
     max-width: 300px;
+    /* align-items: baseline; */
+    /* display: inline; */
+}
+
+.buttonColor {
+    width: 50px;
+    text-align: center;
+    box-shadow: 3px #1565C0;
+}
+
+.model-summary {
+    margin-top: 50px;
+}
+
+.col-1 {
+    margin-top: 20px;
+    border: 3px solid;
+    border-radius: 10px;
+    background-color: #64B5F6;
+}
+
+.model-summary {
+    border: 3px solid;
+    width: 250px;
+    border-radius: 10px;
+    background-color: #64B5F6;
+    /* align-items: center;
+    align-content: center; */
+}
+
+.model-name {
+    border: 3px solid;
+}
+
+.model-specs {
+    border: 3px solid;
+}
+
+.model-price {
+    /* border: 3px solid; */
+    margin: 10px;
+}
+
+.model-summary > .button {
+    border: 3px solid;
+}
+
+.form-block {
+    text-align: center;
 }

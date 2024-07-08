@@ -187,3 +187,37 @@ $(function() {
 // Image and color
 
 // 09 - 1-54
+
+$(function () {
+    var srcValue = $('#imgHolder img').attr('src');
+    // console.log(srcValue);
+    // Need a img in that case
+    $('#imgHolder img').on('click', function () {
+        $(this).attr('src', 'img/blue.png');
+    });
+
+    $('#colorSelector .colorItem.colorBlue').on('click', function () {
+        $('#imgHolder img').attr('src', 'img/blue.png');
+    });
+
+    //...
+
+    // One action for all colors
+    $('#colorSelector .colorItem').on('click', function () {
+        var imgPath;
+        imgPath = $(this).attr('data-img-path');
+        // console.log(imgPath);
+    });
+
+    // Effects 'fadeOut' and 'fadeIn'
+    $('#colorSelector .colorItem').on('click', function () {
+        var imgPath;
+        imgPath = $(this).attr('data-img-path');
+
+        $('#imgHolder img').fadeOut(400);
+        $('#imgHolder img').attr('src', imgPath);
+    });
+});
+
+
+// Calculator
