@@ -221,3 +221,29 @@ $(function () {
 
 
 // Calculator
+
+// Add primary function
+
+$('#colorsSelector .colorItem').on('click', function () {
+    var imagePath = $(this).attr('data-image-path');
+    console.log(imagePath);
+    $('imageHolder img').attr('src', imagePath);
+});
+
+var modelSpecs,
+    modelPrice,
+    modelSpecsHolder,
+    modelPriceHolder;
+
+modelSpecsHolder = $('#modelSpecs');
+modelPriceHolder = $('#modelPrice');
+
+modelPrice = 0;
+modelSpecs = '';
+
+function calculatePrice() {
+    modelPrice = $('input[name=engine]:checked', '#autoForm').val();
+    modelPrice = modelPrice + $('input[name=transmission]:checked', '#autoForm').val();
+    modelPrice = modelPrice + $('input[name=package]:checked', '#autoForm').val();
+    // 12:10
+};
